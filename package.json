@@ -1,0 +1,22 @@
+{
+  "name": "rpa-capa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fusion": "fusion",
+    "start": "fusion start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@arc-fusion/cli": "^2.1.0"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "sass": "^1.65.1",
+    "sass-loader": "^13.3.2"
+  }
+}

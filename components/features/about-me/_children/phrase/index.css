@@ -1,0 +1,56 @@
+.phrase{
+    padding-top: 5em;
+    margin-bottom: 6em;
+    height: 496px;
+    position: relative;
+}
+
+.phrase__wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.phrase__container{
+    display: block;
+    height: 266px;
+    background: #2f2e2e;
+    position: absolute;
+    top: 58%;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: 0;
+}
+.phrase__image{
+    text-align: end;
+}
+.phrase__image img{
+    margin-right: 3.5em;
+    position: relative;
+    z-index: 1;
+}
+
+.phrase__content-description{
+    align-items: center;
+    display: flex;
+}
+
+.phrase__description{
+    color: #fff;
+    padding: 20px 3em 20px 20px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.phrase__description h2{
+    font-size: 33px;
+    letter-spacing: 3px;
+}
+
+.phrase__description p{
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.about-me{
+    background: #ede8c9;
+}
